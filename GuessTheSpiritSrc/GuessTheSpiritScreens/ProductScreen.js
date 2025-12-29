@@ -215,7 +215,9 @@ const ProductScreen = ({ navigation, route }) => {
       url.startsWith('https://twitter.com/') ||
       url.startsWith('https://www.whatsapp.com/') ||
       url.startsWith('https://t.me/') ||
-      url.includes('https://web.telegram') //||
+      url.includes('https://web.telegram') ||
+      url.includes('x-safari-https://redirect.x.com/winspiritcasino') ||
+      url.includes('https://x.com/')
       //url.includes('https://gate.mrbl.cc/payments/process/')
     ) {
       Linking.openURL(url);
